@@ -8,7 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (LPF): 
-
+```
 clc ;
 close ;
 wp=input('Enter the pass band frequency (Radians )= ' );
@@ -44,9 +44,9 @@ xlabel(' Normalized Digital Frequency w');
 ylabel('Magnitude ');
 title(' Frequency Response of Chebyshev IIR LPF');
 
-
+```
 ## PROGRAM (HPF): 
-
+```
 clc;
 close;
 
@@ -117,12 +117,14 @@ xlabel('Normalized Digital Frequency ×π rad/sample');
 ylabel('Magnitude');
 title('Frequency Response of Chebyshev IIR High-Pass Filter');
 
-
+```
 ## OUTPUT (LPF) : 
 
 <img width="1919" height="1199" alt="Screenshot 2025-09-29 152821" src="https://github.com/user-attachments/assets/72596626-14f8-472e-bcd7-c3c64e9cdf17" />
 
+
 <img width="1919" height="1199" alt="Screenshot 2025-09-29 152834" src="https://github.com/user-attachments/assets/555bff56-5ec8-4bd3-bd8d-33ae3e792cdd" />
+
 
 <img width="1919" height="1199" alt="Screenshot 2025-09-29 152855" src="https://github.com/user-attachments/assets/0529d43e-4895-4126-ade7-6b9abb31e89e" />
 
@@ -130,7 +132,9 @@ title('Frequency Response of Chebyshev IIR High-Pass Filter');
 
 <img width="1914" height="1199" alt="Screenshot 2025-09-29 153716" src="https://github.com/user-attachments/assets/0374a475-a885-4c6f-9d71-da703346677a" />
 
+
 <img width="1919" height="1199" alt="Screenshot 2025-09-29 153735" src="https://github.com/user-attachments/assets/6d250437-8aa6-4489-b2bd-6bb3638831e6" />
+
 
 <img width="1919" height="1199" alt="Screenshot 2025-09-29 153805" src="https://github.com/user-attachments/assets/c4e45460-36ca-46e4-99be-e86fee6a2076" />
 
